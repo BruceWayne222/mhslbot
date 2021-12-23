@@ -41,12 +41,8 @@ async def start(client, message):
             InlineKeyboardButton('🔴 Help 🔴', callback_data='help'),
             InlineKeyboardButton('📝 About 📝', callback_data='about')
             ],[
-            InlineKeyboardButton('🔎search here movie🔎', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('🎬 Group 🎬', url='https://t.me/MovieHub_SL'),
+            InlineKeyboardButton('🔎Search🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🎬 Channel 🎬', url='https://t.me/MovieHubSLC')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -86,12 +82,8 @@ async def start(client, message):
             InlineKeyboardButton('🔴 Help 🔴', callback_data='help'),
             InlineKeyboardButton('📝 About 📝', callback_data='about')
             ],[
-            InlineKeyboardButton('🔎search here movie🔎', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('🎬 Group 🎬', url='https://t.me/MovieHub_SL'),
+            InlineKeyboardButton('🔎Search🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🎬 Channel 🎬', url='https://t.me/MovieHubSLC')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
