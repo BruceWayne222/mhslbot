@@ -1,11 +1,11 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT = """Hi {} ,😊✌️
 
 My name is <a href=https://t.me/{}>{}</a>!
 
 <b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Developed by : @JasonTodd96</b>"""
 
     HELP_TXT = """Hey {}
 
