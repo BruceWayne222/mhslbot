@@ -37,7 +37,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [
+        buttons = [[
             InlineKeyboardButton('🔴 Help 🔴', callback_data='help'),
             InlineKeyboardButton('📝 About 📝', callback_data='about')
             ],[
@@ -82,7 +82,7 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [
+        buttons = [[
             InlineKeyboardButton('🔴 Help 🔴', callback_data='help'),
             InlineKeyboardButton('📝 About 📝', callback_data='about')
             ],[
