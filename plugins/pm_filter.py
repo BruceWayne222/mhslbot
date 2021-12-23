@@ -402,12 +402,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔴 Help 🔴', callback_data='help'),
             InlineKeyboardButton('📝 About 📝', callback_data='about')
             ],[
-            InlineKeyboardButton('🔎search here movie🔎', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('🎬 Group 🎬', url='https://t.me/MovieHub_SL'),
+            InlineKeyboardButton('🔎Search🔎', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🎬 Channel 🎬', url='https://t.me/MovieHubSLC')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -451,13 +447,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('Status', callback_data='stats'),
-            InlineKeyboardButton('Info', callback_data='source')
-            ],[
-            InlineKeyboardButton('Help & commands', callback_data='help')
-            ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('📊 Status', callback_data='stats'),
+            InlineKeyboardButton('ℹ️ Source ', callback_data='source')
+           ],[
+            InlineKeyboardButton('🔙 Back', callback_data='start'),
+            InlineKeyboardButton('⚠️ Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
