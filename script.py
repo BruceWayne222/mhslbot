@@ -1,11 +1,11 @@
 class Script(object):
     START_TXT = """<b>Hi</b> {} 😊✌️
 
-<b>My name is <a href=https://t.me/{}>{}</a>!<b/>
+<b>I'm <a href=https://t.me/{}>{}</a>!<b/>
 
 <b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
 
-🔴Developed by : https://t.me/MHSLsupport ❤️</b>"""
+🔴Developed by : <a href='https://t.me/MHSLsupport'>Jason Todd ❤️</a></b>"""
 
     HELP_TXT = """Hey {}
 
