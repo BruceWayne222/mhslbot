@@ -22,7 +22,7 @@ class Script(object):
 - <a href='https://t.me/MHSLsupport'>Jason Todd</a>
 
 <b>MAIN GROUP</b>
-- <a href='https://t.me/MovieHub_SL'>Movie Hub SL 🎬</a>"""
+- <a href='https://t.me/CinemaTerminal'>Cinema Terminal 🍿🎬</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -49,7 +49,7 @@ class Script(object):
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MovieHub_SL)</code>
+<code>[Button Text](buttonurl:https://t.me/CinemaTerminal)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
