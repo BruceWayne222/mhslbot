@@ -219,6 +219,8 @@ This module only works for my admins
 
 __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
 
+**__🔴 චිත්‍රපට ලබාගැනීම සඳහා අපගේ Channel එකට Join වී සිටීම අනිවාර්ය වේ. පහළ තියෙන Button එකෙන් ගිහින් Channel එකට Join වෙන්න. ඊට පස්සේ පහල තියෙන "Try again" Button එක මගින් චිත්‍රපටය ලබාගන්න පුළුවන් 😊✌️__**
+
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
     MEMES_TXT = """Help: <b>Memes</b>
