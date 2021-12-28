@@ -115,7 +115,7 @@ async def who_is(client, message):
         os.remove(local_user_photo)
     else:
         buttons = [[
-            InlineKeyboardButton('✗ close ✗', callback_data='close_data')
+            InlineKeyboardButton('⚠️ Close, callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -162,7 +162,7 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton(
                     text=f"🎬 Channel 🎬",
-                    url="https://t.me/MovieHubSLC"
+                    url="https://t.me/CinemaTerminalChannel"
                 )
             ],
         ]
