@@ -5,7 +5,7 @@ RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
 RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+RUN pip3 install -U pip pyrogram tgcrypto && pip3 install -U -r requirements.txt
 RUN mkdir /mhslbot
 WORKDIR /mhslbot
 COPY start.sh /start.sh
