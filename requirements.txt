@@ -1,5 +1,5 @@
-https://github.com/Mahesh0253/pyrogram/archive/inline.zip
-tgcrypto==1.2.2
+https://github.com/pyrogram/pyrogram/archive/refs/heads/master.zip
+tgcrypto
 pymongo[srv]==3.11.4
 motor==2.4.0
 marshmallow==3.12.2
@@ -23,4 +23,4 @@ python-arq
 ffmpeg-python
 requests
 ytthumb
-pyrogram
+Pyrogram
