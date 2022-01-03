@@ -3,7 +3,7 @@ class Script(object):
 
 <b>I'm <a href=https://t.me/{}>{}</a>!<b/>
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>I can provide Movies & Tv-Series. Its Easy To Use Me :)
 
 🔴Developed by : <a href='https://t.me/MHSLsupport'>Jason Todd ❤️</a></b>"""
 
